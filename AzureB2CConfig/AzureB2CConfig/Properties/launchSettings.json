@@ -1,0 +1,30 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "https://localhost:44389/",
+      "sslPort": 44389
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "https://contosouaorg.b2clogin.com/contosouaorg.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_susi&client_id=e19eb116-2e1c-4ead-9d20-b44108e095ce&nonce=defaultNonce&redirect_uri=https%3A%2F%2Flocalhost%3A44389&scope=openid&response_type=id_token&prompt=login",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "AzureB2CConfig": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
